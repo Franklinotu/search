@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+         <style>
+        body{    text-align:left;
+        border:30px;
+
+
+        }
+
+         .container {
+             display: flex;
+             flex-direction: row;
+             text-align:left;
+             width:auto;
+             background-color:white;
+
+             }
+             .item{
+
+                 margin:10px;
+                 padding:5px;
+
+
+             }
+
+
+
+         .form{
+            text-align:left;
+            margin:10px;
+            padding:5px;
+         }
+        </style>
+    </head>
+    <h3>Advance Search</h3>
+    <body>
+        <div class="container">
+
+        <div><a class="item" href="index.html">All</a></div>
+        <div><a class="item" href="Image.html">Images</a></div>
+
+       </div>
+        <h4 style="margin:15px;">Find pages with...</h4>
+
+        <div class="form">
+
+        <form action="https://www.google.com/search?as_q=">
+           <div> <label for="text">all this words:</label><br>
+            <input style= "width:250px; height: 20px;" type="text" name="q"><br> </div>
+
+           <div> <label for="text">this exact words or phrase:</label><br>
+            <input style="width:250px; height: 20px;" type="text" name="q"><br>  </div>
+
+           <div> <label for="text">any of this words:</label><br>
+            <input style="width:250px; height: 20px; "type="text" name="q"><br>  </div>
+
+             <div> <label for="text">none of this words:</label><br>
+            <input style="width:250px; height: 20px; "type="text" name="q"><br>  </div>
+
+          <button style="background-color:blue; color:white; border:none; padding:15px 32px; margin: 50px;"> Advanced Search </button>
+        </form>
+
+       </div>
+    </body>
+</html>
